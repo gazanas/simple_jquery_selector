@@ -1,0 +1,68 @@
+body {
+
+}
+
+.line {
+  width: 100%;
+  height: 1px;
+  background-color: black;
+  position: relative;
+}
+
+.circle {
+	display: inline-block;
+	vertical-align: middle;
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	background: black;
+	top: -10px;
+	left: -20px;
+}
+
+#selector ul.selectImages {
+	list-style-type: none;
+}
+
+#selector ul.selectImages li {
+	display: inline-block;
+	padding: 10px 10px 10px 10px;
+	float: left;
+}
+
+#selector ul.selectImages li img {
+	display: block;
+	width: 125px;
+	height: 100px;
+	opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+#selector ul.selectInfo {
+	list-style-type: none;
+	margin-left: 20px;
+}
+
+#selector ul.selectInfo li {
+	display: inline-block;
+	vertical-align: top;
+	width: 100px;
+	max-height: 100%;
+	word-break: keep-all;
+	padding-left: 30px;
+	padding-right: 30px;
+	margin-left: 30px;
+	border: 1px solid black;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	box-shadow: 1px 1px 1px black;
+	background: grey; 
+    background: -webkit-linear-gradient(white, grey); 
+    background: -o-linear-gradient(white, grey);
+    background: -moz-linear-gradient(white, grey);
+    background: linear-gradient(white, grey);
+}
