@@ -1,7 +1,3 @@
-/**
- * @author ganas
- */
-
 var objects = 5;
 var image = "ex.png";
 var objInfo = 	[["Example 1 This is an example text", "Example 1", "Example 1"], 
